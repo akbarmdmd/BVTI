@@ -11,3 +11,9 @@ variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
+steps:
+- task: GithubRelease@10
+  inputs:
+    githubConnection: 'akbarmdmd'
+    repositoryName: akbarmdmd/BVTI
+
