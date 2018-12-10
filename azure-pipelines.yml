@@ -16,4 +16,6 @@ steps:
   inputs:
     githubConnection: 'akbarmdmd'
     repositoryName: akbarmdmd/BVTI
+    tagSource: manual
+    tag: az
 
