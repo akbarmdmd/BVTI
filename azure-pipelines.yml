@@ -12,7 +12,7 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- task: GithubRelease@10
+- task: GithubRelease@0
   inputs:
     githubConnection: 'akbarmdmd'
     repositoryName: akbarmdmd/BVTI
