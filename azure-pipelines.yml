@@ -14,8 +14,8 @@ variables:
 steps:
 - task: GithubRelease@0
   inputs:
-    githubConnection: 'akbarmdmd (1)'
+    githubConnection: 'Github akbarmdmd'
     repositoryName: akbarmdmd/BVTI
-    tagSource: user
-    tag: az2
+    tagSource: manual
+    tag: az123
 
